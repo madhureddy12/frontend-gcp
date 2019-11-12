@@ -29,7 +29,7 @@ spec:
     - cat
     tty: true
   - name: gcloud
-    image: gcr.io/cloud-builders/gcloud
+    image: google/cloud-sdk
     command:
     - cat
     tty: true
