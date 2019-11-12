@@ -34,7 +34,7 @@ spec:
     - cat
     tty: true
   - name: kubectl
-    image: gcr.io/cloud-builders/kubectl
+    image: bitnami/kubectl
     command:
     - cat
     tty: true
